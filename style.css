@@ -1,0 +1,61 @@
+.blueBox {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(36, 36, 130);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#weatherDashboard {
+    position: relative;
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.transparentBox {
+    position:relative;
+    height: 200px;
+    width: 800px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    left: 400px;
+    top: 150px;
+    align-content: center;
+}
+
+#leftTitle {
+    position:relative;
+    font-size: 30px;
+    bottom: 130px;
+}
+
+#search {
+    position: relative;
+    bottom: 150px;
+    width: 350px;
+    height: 35px;
+}
+
+#btn {
+    position: relative;
+    bottom: 140px;
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgb(106, 106, 245);
+    color:antiquewhite
+}
+
+#line {
+    width:350px;
+    height: 2px;
+    background-color: rgb(176, 176, 176);
+    position: relative;
+    bottom: 130px;
+}
