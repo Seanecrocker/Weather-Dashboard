@@ -13,7 +13,12 @@ function apiCall(param) {
     return response.json();
     })
     .then(function(data) {
-        console.log(data);
+        console.log(data)
+        const list = data.list
+        for (let index = 0; index < 5; index++) {
+            const element = list[index];
+            console.log(element)
+        }
         })
 
 }
@@ -22,4 +27,5 @@ formEl.addEventListener(`submit`, function(event) {
     event.preventDefault(); 
     const cityName = search.value
     apiCall(cityName)
+
 })
